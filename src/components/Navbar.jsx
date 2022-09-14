@@ -11,9 +11,9 @@ function Navbar() {
     <div className='navbar'>
         <ul className='list'>
             <Link to="/"><button>Home</button></Link>
-            <Link to="/play"><button>Play</button></Link>
             <Link to="/about"><button>About</button></Link>
             <Link to="/contact"><button>Contact</button></Link>
+            <Link to="/more"><button>More</button></Link>
         </ul>
     </div>
   )

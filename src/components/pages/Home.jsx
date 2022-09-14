@@ -15,8 +15,8 @@ function Home() {
         <div className='content'>
             <h1>Hero Jumper</h1>
             <p>Hero Jumper is sandbox game where you can destroy objects and do whatever you want.
-                In Hero Jumper you can build you dream chaos.
-                With the destruction physics you can pretty much destroy anything you ccan think about.
+                In this game you can build you dream chaos.
+                With the destruction physics you can pretty much destroy anything you can think about.
             </p>
         </div>
     </div>

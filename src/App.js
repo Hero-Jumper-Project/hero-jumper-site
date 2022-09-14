@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import Play from './components/pages/Play';
+import More from './components/pages/More';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <div className="current-page">
             <Switch className="navbar-switch">
               <Route path='/' exact component={Home} />
-              <Route path='/play' exact component={Play} />
+              <Route path='/more' exact component={More} />
               <Route path='/about' exact component={About} />
               <Route path='/contact' exact component={Contact} />
             </Switch>

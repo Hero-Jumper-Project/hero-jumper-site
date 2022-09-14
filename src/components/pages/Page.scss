@@ -89,12 +89,6 @@
 
     width: 1000px;
     height: 500px;
-
-    margin: auto;
-}
-
-h3 {
-    text-align: center;
 }
 
 .btn-primary {
@@ -167,3 +161,12 @@ h3 {
 .btn-danger:hover {
     background-color: rgb(180, 0, 0);
 }
+
+.qa {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(199, 129, 0) !important;
+  }
