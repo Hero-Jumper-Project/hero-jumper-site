@@ -67,16 +67,54 @@
 }
 
 .content {
-    text-align: center;
+
+    animation: moveup 1s ease forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: moveup;
+
+
+    text-align: start;
 
     h1 {
         font-size: 100px;
     }
 
     p {
-        text-align: center;
+        text-align: start;
         color: white;
         font-size: 30px;
+    }
+}
+
+.content-sub {
+    background-color: rgb(63, 63, 63);
+
+    margin-top: 500px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+
+    .voronoi-diagram {
+
+        img {
+            width: 500px;
+            margin-bottom: 10px;
+        }
+
+        background-color: rgb(43, 43, 43);
+
+        width: fit-content;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 5px;
     }
 }
 
@@ -93,71 +131,80 @@
 
 .btn-primary {
     background-color: rgb(0, 73, 141);
-    border: 2px solid rgb(0, 31, 71);
+    border: 0px solid rgb(0, 31, 71);
     margin: 2px;
     margin-right: 30px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
 }
+
 .btn-primary:hover {
     background-color: rgb(0, 93, 180);
 }
+
 .btn-primaryblue {
     background-color: rgb(0, 136, 141);
-    border: 2px solid rgb(0, 82, 102);
+    border: 0px solid rgb(0, 31, 71);
     margin: 2px;
     margin-right: 30px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
 }
+
 .btn-primaryblue:hover {
     background-color: rgb(0, 168, 173);
 }
+
 .btn-purple {
     background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(146, 0, 97);
+    border: 0px solid rgb(0, 31, 71);
     margin: 2px;
     margin-right: 30px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
 }
+
 .btn-purple:hover {
     background-color: rgb(43, 43, 43);
 }
+
 .btn-colorful {
     background-color: rgb(0, 112, 37);
-    border: 2px solid rgb(229, 233, 0);
+    border: 0px solid rgb(0, 31, 71);
     margin: 2px;
     margin-right: 30px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
 }
+
 .btn-colorful:hover {
     background-color: rgb(0, 153, 51);
 }
+
 .btn-danger {
     background-color: rgb(141, 0, 0);
-    border: 2px solid rgb(71, 0, 0);
+    border: 0px solid rgb(0, 31, 71);
     margin: 2px;
     margin-right: 30px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
 }
+
 .btn-danger:hover {
     background-color: rgb(180, 0, 0);
 }
@@ -168,5 +215,5 @@
 
 a {
     text-decoration: none !important;
-    color: rgb(199, 129, 0) !important;
-  }
+    color: rgb(0, 173, 14) !important;
+}

@@ -42,14 +42,14 @@ function About() {
                         <img
                             className="d-block w-100 screenshot"
                             src={Screnshot4}
-                            alt="Third slide"
+                            alt="Fourth slide"
                             />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 screenshot"
-                            src={Screnshot4}
-                            alt="Third slide"
+                            src={Screnshot5}
+                            alt="Fifth slide"
                             />
                     </Carousel.Item>
                 </Carousel>
